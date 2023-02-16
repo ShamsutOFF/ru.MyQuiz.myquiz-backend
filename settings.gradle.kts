@@ -1,0 +1,1 @@
+rootProject.name = "ru.MyQuiz.myquiz-backend"
