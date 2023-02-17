@@ -1,17 +1,17 @@
-package ru.MyQuiz
+package ru.myQuiz
 
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import io.ktor.server.testing.*
 import kotlin.test.*
 import io.ktor.http.*
-import ru.MyQuiz.plugins.*
+import ru.myQuiz.plugins.*
 
 class ApplicationTest {
     @Test
     fun testRoot() = testApplication {
         application {
-            configureRouting()
+            configureTestRouting()
         }
         client.get("/").apply {
             assertEquals(HttpStatusCode.OK, status)

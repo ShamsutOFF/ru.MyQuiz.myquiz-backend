@@ -1,4 +1,4 @@
-package ru.MyQuiz.plugins
+package ru.myQuiz.plugins
 
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*

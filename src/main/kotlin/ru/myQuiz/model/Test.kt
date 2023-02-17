@@ -1,4 +1,4 @@
-package ru.MyQuiz.model
+package ru.myQuiz.model
 
 import kotlinx.serialization.Serializable
 
